@@ -49,6 +49,8 @@ export default function ActivityTableToolbar({ filterName, onFilterName }) {
   );
 }
 
+
+
 ActivityTableToolbar.propTypes = {
   filterName: PropTypes.string.isRequired,
   onFilterName: PropTypes.func.isRequired,
