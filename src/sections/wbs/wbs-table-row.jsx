@@ -72,7 +72,7 @@ export default function WbsTableRow({ row, selected, handleClick, onView, onEdit
         anchorOrigin={{ vertical: 'top', horizontal: 'left' }}
         transformOrigin={{ vertical: 'top', horizontal: 'right' }}
         PaperProps={{
-          sx: { width: 140 },
+          sx: { width: 200 },
         }}
       >
         <MenuItem onClick={() => { onEdit(); handleCloseMenu(); }}>
@@ -81,7 +81,7 @@ export default function WbsTableRow({ row, selected, handleClick, onView, onEdit
         </MenuItem>
         <MenuItem onClick={() => { setSaveModalOpen(true); handleCloseMenu(); }}>
           <Iconify icon="eva:save-fill" sx={{ mr: 2 }} />
-          Save
+          Make Template 
         </MenuItem>
         <MenuItem onClick={() => { onDelete(); handleCloseMenu(); }} sx={{ color: 'error.main' }}>
           <Iconify icon="eva:trash-2-outline" sx={{ mr: 2 }} />
