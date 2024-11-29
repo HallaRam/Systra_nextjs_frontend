@@ -2,6 +2,9 @@
 
 This guide provides instructions on setting up and running the frontend of the project.
 
+
+MUST RUN BACKEND SERVER FIRST BEFORE STARTING FRONTEND
+
 ---
 
 ## Prerequisites
