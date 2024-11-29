@@ -139,7 +139,7 @@ export const createTemplate = async (templateData) => {
     );
     return response.data;
   };
-
+  
   export const fetchActivitiesByTemplate = async (templateId) => {
     const response = await axios.get(`${API_BASE_URL}/activities-copy/by-template/${templateId}`);
     return response.data;
